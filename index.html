@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Social proof section</title>
+
+  <!-- CSS Stylesheets -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="main">
+    <!-- Задний фон верх -->
+    <img class="top-desktop-image" src="images\bg-pattern-top-desktop.svg" alt="">
+    <!-- Задний фон низ -->
+    <img class="bottom-desktop-image" src="images\bg-pattern-bottom-desktop.svg" alt="">
+    <!-- Задний фон верх mobile -->
+    <img class="top-mobile-image" src="images\bg-pattern-top-mobile.svg" alt="">
+    <!-- Задний фон низ mobile -->
+    <img class="bottom-mobile-image" src="images\bg-pattern-bottom-mobile.svg" alt="">
+    <!-- Строка с заголовком и оценками -->
+    <div class="row">
+      <!-- Колонка с заголовком -->
+      <div class="col-md-6 heading-column">
+        <h1 class="heading">10,000+ of our users love our products.</h1>
+        <p class="intro"> We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.</p>
+      </div>
+      <!-- Колонка с оценками -->
+      <div class="col-md-6 score-column">
+        <!-- Строка с оценкой просмотров -->
+        <div class="row">
+          <!-- колонка с оценкой просмотров -->
+          <div class="colored-column one">
+            <!-- изображения звездочек х 5 -->
+            <img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star last"
+              src="images\icon-star.svg" alt="">
+            <h3 class="rate">Rated 5 Stars in Reviews</h3>
+          </div>
+        </div>
+        <!-- Строка с оценкой отчёта Гуру -->
+        <div class="row">
+            <!-- колонка с оценкой отчёта Гуру -->
+          <div class="colored-column two">
+            <!-- изображения звездочек х 5 -->
+            <img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star last"
+              src="images\icon-star.svg" alt="">
+            <h3 class="rate">Rated 5 Stars in Report Guru</h3>
+          </div>
+        </div>
+        <!-- Строка с оценкой техники -->
+        <div class="row">
+            <!-- колонка с оценкой техники -->
+          <div class="colored-column three">
+            <!-- изображения звездочек х 5 -->
+            <img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star" src="images\icon-star.svg" alt=""><img class="star last"
+              src="images\icon-star.svg" alt="">
+            <h3 class="rate">Rated 5 Stars in BestTech</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Строка с карточками пользователей -->
+    <div class="row">
+      <!-- колонка с 1 секцией -->
+      <div class="col-md-4">
+        <!-- 1-ая карточка -->
+        <div class="colored-card first">
+          <!-- контейнер с изображением, именем и статусом -->
+          <div class="header">
+            <img class="profile-image" src="images\image-colton.jpg" alt="colton">
+            <p class="name">Colton Smith</p>
+            <p class="status">Verified Buyer</p>
+          </div>
+          <!-- контейнер с отзывом -->
+          <div class="body">
+            <p class="testimonial">"We needed the same printed design as the one we had ordered a week prior.
+              Not only did they find the original order, but we also received it in time.
+              Excellent!"</p>
+          </div>
+        </div>
+      </div>
+      <!-- колонка с 2 секцией -->
+      <div class="col-md-4">
+        <!-- 2-ая карточка -->
+        <div class="colored-card second">
+          <!-- контейнер с изображением, именем и статусом -->
+          <div class="header">
+            <img class="profile-image" src="images\image-irene.jpg" alt="irene">
+            <p class="name">Irene Roberts</p>
+            <p class="status">Verified Buyer</p>
+          </div>
+          <!-- контейнер с отзывом -->
+          <div class="body">
+            <p class="testimonial">"Customer service is always excellent and very quick turn around. Completely
+              delighted with the simplicity of the purchase and the speed of delivery."</p>
+          </div>
+        </div>
+      </div>
+      <!-- колонка с 3 секцией -->
+      <div class="col-md-4">
+        <!-- 3-ая карточка -->
+        <div class="colored-card third">
+          <!-- контейнер с изображением, именем и статусом -->
+          <div class="header">
+            <img class="profile-image" src="images\image-anne.jpg" alt="anne">
+            <p class="name">Anne Wallace</p>
+            <p class="status">Verified Buyer</p>
+          </div>
+          <!-- контейнер с отзывом -->
+          <div class="body">
+            <p class="testimonial">"Put an order with this company and can only praise them for the very high
+              standard. Will definitely use them again and recommend them to everyone!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Контейнер с подписью -->
+  <div class="container footer">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Vitaly Rubtsov</a>.
+  </div>
+</body>
+
+</html>
